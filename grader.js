@@ -17,7 +17,7 @@ var assertFileExists = function(infile) {
 };
 
 var assertUrlExists = function(url) {
-    return true;
+    return url;
 };
 
 var loadChecks = function(checksfile) {
